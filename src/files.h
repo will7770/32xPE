@@ -10,6 +10,6 @@ typedef struct {
 } FileMap;
 
 
-void get_file_map(const wchar_t *filename, FileMap *fm);
+void get_file_map(const wchar_t *filename, FileMap *fm, bool open_w_nullterm);
 
 void close_file_map(FileMap *fm);
